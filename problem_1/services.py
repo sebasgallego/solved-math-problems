@@ -20,7 +20,7 @@ def calculate(max_range):
         if two_num < max_range:
             total_multiples += two_num
 
-        if one_num > max_range and two_num > max_range:  # break when multiples is below at max range.
+        if one_num > max_range and two_num > max_range:  # break when multiples is below at max range .
             break
 
     return total_multiples  # return result.
